@@ -1,6 +1,6 @@
 <template>
   <div
-    class="hidden lg:flex flex-col justify-center items-center bg-[#483E46] rounded-2xl basis-1/3 h-[560px]"
+    class="hidden lg:flex flex-col justify-center items-center bg-[#483E46] rounded-2xl h-[560px]"
   >
     <div class="w-full">
       <figure
@@ -21,7 +21,7 @@
         <h1 class="-mb-2">Dewa</h1>
         <h2>Putra Hernanda</h2>
       </div>
-      <p class="text-center bg-[#ADAEC0] w-fit px-3 rounded-xl mx-auto">
+      <p class="text-center bg-[#ADAEC0] text-[#31282D] w-fit px-3 rounded-xl mx-auto font-semibold">
         Programmer
       </p>
     </div>
@@ -39,13 +39,15 @@
 
     <div class="flex gap-2">
       <NuxtLink to="https://www.linkedin.com/in/dewa-putra-h/" target="_blank">
-        <Icon name="ci:linkedin" class="text-3xl mt-1" style="color: #adaec0" />
+        <Icon
+          name="ci:linkedin"
+          class="text-3xl mt-1 text-[#adaec0] hover:text-[#2b3137]"
+        />
       </NuxtLink>
       <NuxtLink to="https://github.com/dewa-nanda" target="_blank">
         <Icon
           name="tabler:brand-github"
-          class="text-3xl mt-1 font-bold"
-          style="color: #adaec0"
+          class="text-3xl mt-1 font-bold text-[#adaec0] hover:text-[#2b3137]"
         />
       </NuxtLink>
     </div>
