@@ -1,10 +1,10 @@
 <template>
   <div
-    class="hidden lg:flex flex-col justify-center items-center bg-[#483E46] rounded-2xl h-[560px]"
+    class="flex flex-col justify-center items-center bg-[#483E46] rounded-2xl h-fit py-2"
   >
     <div class="w-full">
       <figure
-        class="bg-[#7E7A88] pt-4 w-fit mx-auto"
+        class="hidden lg:block bg-[#7E7A88] pt-4 w-fit mx-auto"
         style="border-radius: 35px"
       >
         <img
