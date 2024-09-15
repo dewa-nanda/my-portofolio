@@ -6,7 +6,7 @@
     <img :src="imgSrc" class="h-3/5 my-auto" />
     <div class="text-[#1a1819] flex flex-col justify-center w-[380px]">
       <h1 class="font-bold text-2xl">{{ title }}</h1>
-      <p class="text-justify">{{ desc }}</p>
+      <p class="text-justify leading-5">{{ desc }}</p>
     </div>
   </div>
 </template>

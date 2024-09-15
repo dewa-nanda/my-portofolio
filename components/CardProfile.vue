@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex flex-col justify-center items-center bg-[#483E46] rounded-2xl h-fit py-2"
+    class="flex flex-col justify-center items-center bg-[#483E46] rounded-2xl h-fit py-6"
   >
     <div class="w-full">
       <figure
@@ -17,11 +17,13 @@
           "
         />
       </figure>
-      <div class="text-[#C7CD83] font-bold text-2xl text-center mb-1">
-        <h1 class="-mb-2">Dewa</h1>
-        <h2>Putra Hernanda</h2>
-      </div>
-      <p class="text-center bg-[#ADAEC0] text-[#31282D] w-fit px-3 rounded-xl mx-auto font-semibold">
+      <h1 class="text-[#C7CD83] leading-6 font-bold text-2xl text-center py-2">
+        Dewa <br />
+        Putra Hernanda
+      </h1>
+      <p
+        class="text-center bg-[#ADAEC0] text-[#31282D] w-fit px-8 rounded-xl mx-auto font-bold"
+      >
         Programmer
       </p>
     </div>
@@ -84,3 +86,10 @@
     },
   ]
 </script>
+
+<style scoped>
+  h1,
+  h2 {
+    font-family: 'Nerko One', cursive;
+  }
+</style>

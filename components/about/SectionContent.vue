@@ -8,3 +8,9 @@
 <script setup lang="ts">
   const props = defineProps(['title'])
 </script>
+
+<style scoped>
+  h1 {
+    font-family: Nerko One, cursive;
+  }
+</style>

@@ -1,6 +1,6 @@
 <template>
-  <SectionContent class="mx-6 mb-3" title="About Me">
-    <p class="text-[#ADAEC0] text-justify font-semibold">
+  <SectionContent class="mx-6 mb-3" title="About Me" id="about-me">
+    <p class="text-[#ADAEC0] text-justify leading-5">
       I'm a passionate <strong>Junior Front-End Web Developer</strong> with a
       strong foundation in <strong>JavaScript</strong>. I'm constantly seeking
       out new technologies and frameworks to expand my skill set and tackle
@@ -8,7 +8,7 @@
       <strong>adapt to new environments</strong> allows me to deliver
       high-quality solutions that meet the needs of my clients.
     </p>
-    <ul class="text-[#ADAEC0] mt-1 font-semibold">
+    <ul class="text-[#ADAEC0] mt-1">
       <li>
         🔭 I’m currently working on <strong>geek garden software house.</strong>
       </li>
@@ -37,9 +37,7 @@
     </div>
   </SectionContent>
 
-  <SectionContent class="mx-6 mb-3" title="Skills">
-
-  </SectionContent>
+  <SectionContent class="mx-6 mb-3" title="Skills"> </SectionContent>
 </template>
 
 <script lang="ts" setup>
@@ -69,3 +67,9 @@
     },
   ]
 </script>
+
+<style scoped>
+  #about-me {
+    font-family: 'Open Sans', sans-serif;
+  }
+</style>
