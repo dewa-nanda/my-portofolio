@@ -1,9 +1,6 @@
 <template>
-  <section class="mx-6 mb-3">
-    <h1 class="text-3xl mb-3 font-bold text-[#C7CD83]">
-      <span class="border-b-2 border-[#C7CD83]">About</span> Me
-    </h1>
-    <p class="text-[#ADAEC0] text-justify">
+  <SectionContent class="mx-6 mb-3" title="About Me">
+    <p class="text-[#ADAEC0] text-justify font-semibold">
       I'm a passionate <strong>Junior Front-End Web Developer</strong> with a
       strong foundation in <strong>JavaScript</strong>. I'm constantly seeking
       out new technologies and frameworks to expand my skill set and tackle
@@ -11,7 +8,7 @@
       <strong>adapt to new environments</strong> allows me to deliver
       high-quality solutions that meet the needs of my clients.
     </p>
-    <ul class="text-[#ADAEC0] mt-1">
+    <ul class="text-[#ADAEC0] mt-1 font-semibold">
       <li>
         🔭 I’m currently working on <strong>geek garden software house.</strong>
       </li>
@@ -27,33 +24,48 @@
         ⚡ Fun fact: I enjoy music and exploring new places when I'm not coding.
       </li>
     </ul>
-  </section>
-  <section class="mx-6">
-    <h1 class="text-3xl mb-3 font-bold text-[#C7CD83]">
-      <span class="border-b-2 border-[#C7CD83]">What</span> I’am Doing
-    </h1>
-    <p>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus
-      excepturi optio ex deleniti ea quibusdam sint veniam a quae, debitis enim
-      quaerat quos porro fuga temporibus, assumenda ducimus eius magnam nulla
-      iste esse eveniet. Dolore odit consequuntur itaque quasi illo.
-    </p>
-  </section>
-  <section class="mx-6">
-    <h1 class="text-3xl mb-3 font-bold text-[#C7CD83]">
-      <span class="border-b-2 border-[#C7CD83]">Skills</span>
-    </h1>
-    <p>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus
-      excepturi optio ex deleniti ea quibusdam sint veniam a quae, debitis enim
-      quaerat quos porro fuga temporibus, assumenda ducimus eius magnam nulla
-      iste esse eveniet. Dolore odit consequuntur itaque quasi illo.
-    </p>
-  </section>
+  </SectionContent>
+
+  <SectionContent class="mx-6 mb-3" title="What I’am Doing">
+    <div class="flex justify-center flex-wrap gap-4">
+      <CardSkill
+        v-for="skill in skillList"
+        :img-src="skill.imgSrc"
+        :title="skill.title"
+        :desc="skill.dsec"
+      />
+    </div>
+  </SectionContent>
+
+  <SectionContent class="mx-6 mb-3" title="Skills">
+
+  </SectionContent>
 </template>
 
 <script lang="ts" setup>
+  import webDevImg from '@/assets/images/WebDeveloper.png'
+  import webDesignImg from '@/assets/images/WebDesign.png'
+
   useSeoMeta({
     title: 'KETweb - About',
   })
+
+  interface Skill {
+    imgSrc: any
+    title: string
+    dsec: string
+  }
+
+  const skillList: Skill[] = [
+    {
+      imgSrc: webDevImg,
+      title: 'Web Developer',
+      dsec: 'Focusing on both front-end development to build high-performing and user-friendly websites.',
+    },
+    {
+      imgSrc: webDesignImg,
+      title: 'Web Design',
+      dsec: 'Creating digital experiences that are both beautiful and functional.',
+    },
+  ]
 </script>

@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  compatibilityDate: "2024-04-03",
-  css: ["~/assets/css/main.css"],
+  compatibilityDate: '2024-04-03',
+  css: ['~/assets/css/main.css'],
   devtools: { enabled: true },
 
   postcss: {
@@ -10,6 +10,11 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-
-  modules: ["@nuxt/icon"],
-});
+  components: [
+    {
+      path: '~/components',
+      pathPrefix: false,
+    },
+  ],
+  modules: ['@nuxt/icon'],
+})
