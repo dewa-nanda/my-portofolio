@@ -22,3 +22,9 @@
     title: 'KETweb - Project',
   })
 </script>
+
+<style scoped>
+  h1 {
+    font-family: Nerko One, cursive;
+  }
+</style>
