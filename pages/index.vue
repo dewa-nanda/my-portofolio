@@ -1,6 +1,6 @@
 <template>
   <SectionContent class="mx-6 mb-3" title="About Me" id="about-me">
-    <p class="text-[#ADAEC0] text-justify leading-5">
+    <p class="text-[#ADAEC0] text-justify leading-6">
       I'm a passionate <strong>Junior Front-End Web Developer</strong> with a
       strong foundation in <strong>JavaScript</strong>. I'm constantly seeking
       out new technologies and frameworks to expand my skill set and tackle
@@ -8,7 +8,7 @@
       <strong>adapt to new environments</strong> allows me to deliver
       high-quality solutions that meet the needs of my clients.
     </p>
-    <ul class="text-[#ADAEC0] mt-1">
+    <ul class="text-[#ADAEC0] mt-2">
       <li>
         🔭 I’m currently working on <strong>geek garden software house.</strong>
       </li>
