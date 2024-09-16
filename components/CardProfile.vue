@@ -17,12 +17,14 @@
           "
         />
       </figure>
-      <h1 class="text-[#C7CD83] leading-6 font-bold text-2xl text-center py-2">
+      <h1
+        class="text-[#C7CD83] leading-12 font-bold text-4xl lg:text-2xl lg:leading-6 text-center py-2"
+      >
         Dewa <br />
         Putra Hernanda
       </h1>
       <p
-        class="text-center bg-[#ADAEC0] text-[#31282D] w-fit px-8 rounded-xl mx-auto font-bold"
+        class="text-center bg-[#ADAEC0] text-[#31282D] w-fit px-8 text-xl lg:text-lg rounded-xl mx-auto font-bold"
       >
         Programmer
       </p>
@@ -39,17 +41,19 @@
       />
     </div>
 
+    <div class="border-t-2 w-10/12 my-2"></div>
+
     <div class="flex gap-2">
       <NuxtLink to="https://www.linkedin.com/in/dewa-putra-h/" target="_blank">
         <Icon
           name="ci:linkedin"
-          class="text-3xl mt-1 text-[#adaec0] hover:text-[#2b3137]"
+          class="text-4xl mt-1 text-[#adaec0] hover:text-[#2b3137]"
         />
       </NuxtLink>
       <NuxtLink to="https://github.com/dewa-nanda" target="_blank">
         <Icon
           name="tabler:brand-github"
-          class="text-3xl mt-1 font-bold text-[#adaec0] hover:text-[#2b3137]"
+          class="text-4xl mt-1 font-bold text-[#adaec0] hover:text-[#2b3137]"
         />
       </NuxtLink>
     </div>
