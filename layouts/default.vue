@@ -7,7 +7,7 @@
     <div class="basis-full bg-[#483E46] rounded-2xl pb-4">
       <header class="w-full flex justify-end rounded-2xl">
         <nav
-          class="w-fit flex text-lg justify-end bg-[#7E7A88] p-4 px-12 gap-7 font-bold rounded-se-2xl rounded-es-2xl text-[#483E46]"
+          class="w-full md:w-fit flex justify-center md:justify-end text-lg text-[#483E46] bg-[#7E7A88] p-4 px-12 gap-7 font-bold rounded-2xl mb-4"
         >
           <NuxtLink
             v-for="link in listLink"

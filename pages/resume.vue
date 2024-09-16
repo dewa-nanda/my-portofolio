@@ -70,13 +70,13 @@
     icon: 'solar:programming-broken',
     listResume: [
       {
-        title: 'Front-end web vue developer',
+        title: 'Front-end web vue developer - Geek Garden',
         years: 'Aug 2024 - Present',
         desc: [],
       },
       {
-        title: 'Front-end web & Back-end, Project Lazismu',
-        years: 'Sept 2023- Dec 2023',
+        title: 'Front-end web & Back-end Laravel - Lazismu',
+        years: 'Sept 2023 - Dec 2023',
         desc: [
           'Communicate and implement as the client wants.',
           'Work and communicate well as a team.',
@@ -95,7 +95,7 @@
         ],
       },
       {
-        title: 'Machine Learning Developer, Bangkit Academy',
+        title: 'Machine Learning Developer - Bangkit Academy',
         years: 'Feb 2023 - Jul 2023',
         desc: [
           'Work and communicate well as a team',
@@ -106,7 +106,7 @@
         ],
       },
       {
-        title: 'Front-end Web & Back-end, Dicoding Academy',
+        title: 'Front-end Web & Back-end - Dicoding Academy',
         years: 'Aug 2020 - Dec 2022',
         desc: [
           'Work and communicate well as a team',
