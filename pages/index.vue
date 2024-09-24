@@ -37,35 +37,23 @@
     </div>
   </SectionContent>
 
-  <SectionContent class="mx-6 mb-3" title="Skills"> </SectionContent>
+  <SectionContent class="mx-6 mb-3" title="Skills">
+    <div class="flex flex-wrap justify-center gap-6 px-5">
+      <SkillIcon
+        v-for="skillIcon in skillIcons"
+        :icon-name="skillIcon.iconName"
+        :title="skillIcon.title"
+      />
+    </div>
+  </SectionContent>
 </template>
 
 <script lang="ts" setup>
-  import webDevImg from '@/assets/images/WebDeveloper.png'
-  import webDesignImg from '@/assets/images/WebDesign.png'
+  import { skillList, skillIcons } from '~/assets/data/home'
 
   useSeoMeta({
     title: 'KETweb - About',
   })
-
-  interface Skill {
-    imgSrc: any
-    title: string
-    dsec: string
-  }
-
-  const skillList: Skill[] = [
-    {
-      imgSrc: webDevImg,
-      title: 'Web Developer',
-      dsec: 'Focusing on both front-end development to build high-performing and user-friendly websites.',
-    },
-    {
-      imgSrc: webDesignImg,
-      title: 'Web Design',
-      dsec: 'Creating digital experiences that are both beautiful and functional.',
-    },
-  ]
 </script>
 
 <style scoped>

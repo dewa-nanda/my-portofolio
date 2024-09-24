@@ -6,7 +6,7 @@
     <img :src="imgSrc" class="h-3/5 my-auto hidden md:block" />
     <div class="text-[#2b3137] flex flex-col justify-center max-w-[380px]">
       <h1 class="font-bold text-2xl">{{ title }}</h1>
-      <p class="text-justify leading-5 text-wrap">{{ desc }}</p>
+      <p class="leading-5 text-wrap">{{ desc }}</p>
     </div>
   </div>
 </template>

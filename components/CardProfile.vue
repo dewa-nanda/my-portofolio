@@ -47,13 +47,13 @@
       <NuxtLink to="https://www.linkedin.com/in/dewa-putra-h/" target="_blank">
         <Icon
           name="ci:linkedin"
-          class="text-4xl mt-1 text-[#adaec0] hover:text-[#2b3137]"
+          class="text-4xl mt-1 text-[#928e9d] hover:text-[#b8b7c2]"
         />
       </NuxtLink>
       <NuxtLink to="https://github.com/dewa-nanda" target="_blank">
         <Icon
           name="tabler:brand-github"
-          class="text-4xl mt-1 font-bold text-[#adaec0] hover:text-[#2b3137]"
+          class="text-4xl mt-1 font-bold text-[#928e9d] hover:text-[#b8b7c2]"
         />
       </NuxtLink>
     </div>
