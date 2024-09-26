@@ -4,7 +4,18 @@ export interface SkillIcon {
 }
 
 export interface Skill {
-  imgSrc: string
   title: string
   dsec: string
+}
+
+export interface DetailProject {
+  img: string[]
+  title: string
+  detailDesc: {
+    value: string
+    title: string
+    content: any[]
+  }[]
+  github: string
+  web: string
 }

@@ -27,12 +27,13 @@
   </SectionContent>
 
   <SectionContent class="mx-6 mb-3" title="What I’am Doing">
-    <div class="flex justify-center flex-wrap gap-4">
+    <div class="grid xl:grid-cols-2 gap-4">
       <CardSkill
-        v-for="skill in skillList"
+        v-for="(skill, i) in skillList"
         :img-src="skill.imgSrc"
         :title="skill.title"
         :desc="skill.dsec"
+        :class="`${i === 2 ? 'xl:col-span-2' : ''}`"
       />
     </div>
   </SectionContent>

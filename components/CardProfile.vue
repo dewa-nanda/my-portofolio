@@ -18,7 +18,7 @@
         />
       </figure>
       <h1
-        class="text-[#C7CD83] leading-12 font-bold text-4xl lg:text-2xl lg:leading-6 text-center py-2"
+        class="text-[#C7CD83] leading-12 font-bold text-6xl mb-3 lg:text-2xl lg:leading-6 text-center py-2"
       >
         Dewa <br />
         Putra Hernanda
