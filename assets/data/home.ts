@@ -1,10 +1,10 @@
 import type { Skill, SkillIcon, DetailProject } from '~/types'
-import ketRestoImg1 from '~/assets/images/ketResto1.png'
-import ketRestoImg2 from '~/assets/images/ketResto2.png'
-import ticTacToe1 from '~/assets/images/tictactoe1.png'
-import ticTacToe2 from '~/assets/images/tictactoe2.png'
-import notesAppReact1 from '~/assets/images/notesappreact1.png'
-import notesAppReact2 from '~/assets/images/notesappreact2.png'
+import ketRestoImg1 from '~/public/ketresto1.png'
+import ketRestoImg2 from '~/public/ketresto2.png'
+import ticTacToe1 from '~/public/tictactoe1.png'
+import ticTacToe2 from '~/public/tictactoe1.png'
+import notesAppReact1 from '~/public/tictactoe1.png'
+import notesAppReact2 from '~/public/tictactoe1.png'
 
 export const skillList: Skill[] = [
   {
